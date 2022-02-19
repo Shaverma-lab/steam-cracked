@@ -1,0 +1,7 @@
+fake_useragent
+lxml
+bs4
+requests
+psycopg2
+aiogram
+emoji

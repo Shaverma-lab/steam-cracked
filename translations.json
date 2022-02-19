@@ -1,0 +1,26 @@
+{
+    "eng": {
+        "hi": "Hello! Please, send the name of the game whose hack status you want to know.",
+        "title": "Game title",
+        "status": "Status",
+        "release date": "Release date",
+        "crack date": "Crack date",
+        "hacker": "Cracked by"
+    },
+    "rus": {
+        "hi": "Привет! Пожалуйста, отправь название той игры статус взлома которой ты хочешь узнать.",
+        "title": "Название игры",
+        "status": "Статус",
+        "release date": "Дата выхода",
+        "crack date": "Дата взлома",
+        "hacker": "Взломал"
+    },
+    "ukr": {
+        "hi": "Привіт! Будь ласка, відправ назву тієї гри статус взлому якої ти хочешь подивитися.",
+        "title": "Назва гри",
+        "status": "Статус",
+        "release date": "Дата выходу",
+        "crack date": "Дата взлому",
+        "hacker": "Взломав"
+    }
+}
