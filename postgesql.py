@@ -33,7 +33,7 @@ class PostgreSQL:
 
     def get_language(self, user_id):
         self.cursor.execute(
-            f"SELECT id FROM languages WHERE user_id = {user_id}"
+            f"SELECT language FROM languages WHERE user_id = {user_id}"
         )
 
         return self.cursor.fetchone()
