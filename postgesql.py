@@ -21,7 +21,7 @@ class PostgreSQL:
 
         return self.cursor.fetchone()
 
-    def add_new_user(self, user_id, language):
+    def add_new_user(self, user_id):
         self.cursor.execute(
             f"INSERT INTO languages(user_id) VALUES(%s)", (user_id,)
         )
