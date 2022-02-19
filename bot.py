@@ -25,7 +25,7 @@ bot = Bot(token=TOKEN)
 dp = Dispatcher(bot)
 dp.middleware.setup(LoggingMiddleware())
 
-db = PostgreSQL('DB_URI')
+db = PostgreSQL(DB_URI)
 
 @dp.message_handler(commands=['start', 'help'])
 async def start(message: types.Message):
