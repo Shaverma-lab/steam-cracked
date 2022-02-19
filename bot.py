@@ -44,7 +44,7 @@ async def message(message: types.Message):
     result = db.load(message.chat.id)
 
     if not result:
-        db.add_new_user(message.chat.id, 'eng')
+        db.add_new_user(message.chat.id)
 
     language_change_command = ['🇷🇺 RUS', '🇬🇧 ENG', '🇺🇦 UKR']
 

@@ -11,7 +11,7 @@ class PostgreSQL:
             """CREATE TABLE IF NOT EXISTS languages(
                 id serial PRIMARY KEY,
                 user_id integer NOT NULL,
-                language text DEFAULT "eng");"""
+                language text DEFAULT 'eng');"""
         )
 
     def load(self, user_id):
@@ -23,7 +23,7 @@ class PostgreSQL:
 
     def add_new_user(self, user_id, language):
         self.cursor.execute(
-            f"INSERT INTO languages(user_id, language) VALUES(%s, %s)", (user_id, language,)
+            f"INSERT INTO languages(user_id) VALUES(%s)", (user_id,)
         )
 
     def update_language(self, language, user_id):
